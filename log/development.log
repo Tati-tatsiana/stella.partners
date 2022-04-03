@@ -1630,3 +1630,45 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 225ms (Views: 213.8ms | Allocations: 14911)
 
 
+Started GET "/?aria-expanded=false&aria-haspopup=true&class=avatar+dropdown-toggle&data%5Bbs_toggle%5D=dropdown&id=navbarDropdown" for ::1 at 2022-04-03 17:59:31 -0400
+  [1m[35m (6.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Parameters: {"aria-expanded"=>"false", "aria-haspopup"=>"true", "class"=>"avatar dropdown-toggle", "data"=>{"bs_toggle"=>"dropdown"}, "id"=>"navbarDropdown"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-04-03 17:59:35 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 752.4ms | Allocations: 18363)
+Started GET "/" for ::1 at 2022-04-03 17:59:46 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 30.8ms | Allocations: 1944)
+Started GET "/" for ::1 at 2022-04-03 18:01:30 -0400
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 73.3ms | Allocations: 9397)
+  Rendered layout layouts/application.html.erb (Duration: 3299.0ms | Allocations: 39039)
+Completed 500 Internal Server Error in 3332ms (ActiveRecord: 0.0ms | Allocations: 42620)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    10:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11: 
+    12:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+    13:   </head>
+  
+app/views/layouts/application.html.erb:10
