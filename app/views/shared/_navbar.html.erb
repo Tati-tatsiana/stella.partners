@@ -37,20 +37,26 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel"><strong>Ecrire à notre équipe de conseillers</strong></h5>
+                  <h5 class="modal-title" id="exampleModalLabel"><strong>How can we help?</strong></h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
               </div>
               <div class="modal-body">
-                <%# <%= form_with url: "#", method: :get do |form| %>
-                  <%# <%= form.label :query, "Votre message" %>
-                  <%# <%= form.text_area :message, size: "70x5", class: "text-area p-2", value: "Bonjour"%>
-                <%# <% end %>
-                <%# <p><em>Vous pouvez également nous envoyer un message via notre système de chat.</em></p> %>
+                <%= form_with url: "#", method: :get do |form| %>
+                <%= form.label :query, "Your message:" %>
+                <%= form.text_area :message, size: "50x2", class: "text-area p-2", value: " "%>
+                <%= form.label :query, "Full name:" %>
+                <%= form.text_area :message, size: "50x2", class: "text-area p-2", value: " "%>
+                <%= form.label :query, "Email:" %>
+                <%= form.text_area :message, size: "50X2", class: "text-area p-2", value: " " %>
+                <%= form.label :query, "Phone number:" %>
+                <%= form.text_area :message, size: "50x2", class: "text-area p-2", value: " " %>
+                <% end %>
+                <p><em>Thank you for your message.</em></p>
               </div>
               <div class="modal-footer">
-                <%= link_to "Envoyer", "#", method: :post, class:"btn btn-secondary", 'data-dismiss': "modal" %>
+                <%= link_to "Send", "#", method: :post, class:"btn btn-secondary", 'data-dismiss': "modal" %>
                 <%# <button type="button" class="btn btn-secondary" data-dismiss="modal">Envoyer</button> %>
                 <%# <button type="button" class="btn btn-primary btn-pink">Retour</button> %>
               </div>
