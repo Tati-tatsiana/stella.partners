@@ -31,10 +31,9 @@
 
 .modal-content {
   border-radius: 20px;
-  &.bg-yellow {
-    background-color: #FFECBC;
-  }
+  background-color: rgba(255, 248, 220, 1);
 }
+
 .modal-header {
   border-bottom: 0 none;
 }
@@ -50,4 +49,8 @@
 .btn-position-form {
   width: 100%;
   height: max-content;
+}
+
+p {
+  padding-left: 100px;
 }
