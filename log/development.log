@@ -10647,3 +10647,495 @@ Processing by PagesController#team as HTML
 Completed 200 OK in 160ms (Views: 159.4ms | Allocations: 16304)
 
 
+Started GET "/team" for ::1 at 2022-05-01 11:46:13 -0400
+Processing by PagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/team.html.erb within layouts/application
+  Rendered pages/team.html.erb within layouts/application (Duration: 24.2ms | Allocations: 1503)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 15.7ms | Allocations: 4867)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 174.8ms | Allocations: 15869)
+Completed 200 OK in 178ms (Views: 175.9ms | Allocations: 16314)
+
+
+Started GET "/team" for ::1 at 2022-05-01 11:46:16 -0400
+Processing by PagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/team.html.erb within layouts/application
+  Rendered pages/team.html.erb within layouts/application (Duration: 67.8ms | Allocations: 1497)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 10.7ms | Allocations: 4866)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 164.2ms | Allocations: 15865)
+Completed 200 OK in 167ms (Views: 165.5ms | Allocations: 16313)
+
+
+Started GET "/clients" for ::1 at 2022-05-01 11:46:18 -0400
+Processing by PagesController#clients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/clients.html.erb within layouts/application
+  Rendered pages/clients.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 10.1ms | Allocations: 4864)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 78.1ms | Allocations: 15465)
+Completed 200 OK in 81ms (Views: 79.6ms | Allocations: 15913)
+
+
+Started GET "/projects" for ::1 at 2022-05-01 11:46:26 -0400
+Processing by PagesController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 10.2ms | Allocations: 4885)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 121.3ms | Allocations: 14524)
+Completed 200 OK in 124ms (Views: 123.3ms | Allocations: 14971)
+
+
+Started GET "/team" for ::1 at 2022-05-01 11:46:27 -0400
+Processing by PagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/team.html.erb within layouts/application
+  Rendered pages/team.html.erb within layouts/application (Duration: 121.2ms | Allocations: 1502)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 10.2ms | Allocations: 4868)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 224.6ms | Allocations: 15865)
+Completed 200 OK in 228ms (Views: 227.2ms | Allocations: 16313)
+
+
+Started POST "/team" for ::1 at 2022-05-01 11:46:33 -0400
+Processing by TeamController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (Allocations: 438)
+
+
+Started GET "/" for ::1 at 2022-05-01 11:46:33 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 82.3ms | Allocations: 681)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 12.4ms | Allocations: 4888)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 339.2ms | Allocations: 15113)
+Completed 200 OK in 361ms (Views: 354.6ms | Allocations: 15595)
+
+
+Started GET "/clients" for ::1 at 2022-05-01 12:59:00 -0400
+Processing by PagesController#clients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/clients.html.erb within layouts/application
+  Rendered pages/clients.html.erb within layouts/application (Duration: 42.9ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 23.6ms | Allocations: 4864)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 216.1ms | Allocations: 15467)
+Completed 200 OK in 233ms (Views: 219.3ms | Allocations: 15915)
+
+
+Started GET "/clients" for ::1 at 2022-05-01 14:16:49 -0400
+Processing by PagesController#clients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/clients.html.erb within layouts/application
+  Rendered pages/clients.html.erb within layouts/application (Duration: 27.8ms | Allocations: 1434)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 76.1ms | Allocations: 9742)
+  Rendered layout layouts/application.html.erb (Duration: 235.8ms | Allocations: 21043)
+Completed 500 Internal Server Error in 381ms (Allocations: 22360)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000011148>):
+    55:                 <%= form.text_area :email, size: "50X2", class: "text-area p-2", value: " " %>
+    56:                 <%= form.label :phonenumber, "Phone number:" %>
+    57:                 <%= form.text_area :phonenumber, size: "50x2", class: "text-area p-2", value: " " %>
+    58:                 <%= f.send 'Save', data: { confirm: 'Your message has been sent!' } %>
+    59:                 <% end %>
+    60:                 <p><em>Thank you for your message.</em></p>
+    61:               </div>
+  
+app/views/shared/_navbar.html.erb:58
+app/views/shared/_navbar.html.erb:49
+app/views/layouts/application.html.erb:17
+Started GET "/clients" for ::1 at 2022-05-01 14:18:05 -0400
+Processing by PagesController#clients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/clients.html.erb within layouts/application
+  Rendered pages/clients.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 26.7ms | Allocations: 9036)
+  Rendered layout layouts/application.html.erb (Duration: 88.5ms | Allocations: 19766)
+Completed 500 Internal Server Error in 91ms (Allocations: 20500)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000012408>):
+    55:                 <%= form.text_area :email, size: "50X2", class: "text-area p-2", value: " " %>
+    56:                 <%= form.label :phonenumber, "Phone number:" %>
+    57:                 <%= form.text_area :phonenumber, size: "50x2", class: "text-area p-2", value: " " %>
+    58:                 <%= f.send 'Save', data: { confirm: 'Your message has been sent!' } %>
+    59:                 <% end %>
+    60:                 <p><em>Thank you for your message.</em></p>
+    61:               </div>
+  
+app/views/shared/_navbar.html.erb:58
+app/views/shared/_navbar.html.erb:49
+app/views/layouts/application.html.erb:17
+Started GET "/" for ::1 at 2022-05-01 14:18:16 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 8.3ms | Allocations: 687)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 18.3ms | Allocations: 8939)
+  Rendered layout layouts/application.html.erb (Duration: 66.8ms | Allocations: 19025)
+Completed 500 Internal Server Error in 70ms (Allocations: 19611)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000012700>):
+    55:                 <%= form.text_area :email, size: "50X2", class: "text-area p-2", value: " " %>
+    56:                 <%= form.label :phonenumber, "Phone number:" %>
+    57:                 <%= form.text_area :phonenumber, size: "50x2", class: "text-area p-2", value: " " %>
+    58:                 <%= f.send 'Save', data: { confirm: 'Your message has been sent!' } %>
+    59:                 <% end %>
+    60:                 <p><em>Thank you for your message.</em></p>
+    61:               </div>
+  
+app/views/shared/_navbar.html.erb:58
+app/views/shared/_navbar.html.erb:49
+app/views/layouts/application.html.erb:17
+Started GET "/" for ::1 at 2022-05-01 14:18:50 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.2ms | Allocations: 843)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 25.9ms | Allocations: 9732)
+  Rendered layout layouts/application.html.erb (Duration: 67.1ms | Allocations: 20414)
+Completed 500 Internal Server Error in 72ms (Allocations: 21837)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000013920>):
+    56:                 <%= form.label :phonenumber, "Phone number:" %>
+    57:                 <%= form.text_area :phonenumber, size: "50x2", class: "text-area p-2", value: " " %>
+    58:                 <% end %>
+    59:                 <%= f.submit 'Save', data: { confirm: 'Your confirm message' } %>
+    60:                 <p><em>Thank you for your message.</em></p>
+    61:               </div>
+    62:               <div class="modal-footer">
+  
+app/views/shared/_navbar.html.erb:59
+app/views/layouts/application.html.erb:17
+Started GET "/" for ::1 at 2022-05-01 14:20:12 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.2ms | Allocations: 844)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 21.1ms | Allocations: 9755)
+  Rendered layout layouts/application.html.erb (Duration: 69.5ms | Allocations: 20478)
+Completed 500 Internal Server Error in 82ms (Allocations: 21802)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000013f38>):
+    60:               </div>
+    61:               <div class="modal-footer">
+    62:                 <%= link_to "Send", "#", method: :post, class:"btn btn-secondary", 'data-dismiss': "modal" %>
+    63:                 <%= f.submit 'Send', data: { confirm: 'Your confirm message' } %>
+    64:                 <%# <button type="button" class="btn btn-secondary" data-dismiss="modal">Envoyer</button> %>
+    65:                 <%# <button type="button" class="btn btn-primary btn-pink">Retour</button> %>
+    66:               </div>
+  
+app/views/shared/_navbar.html.erb:63
+app/views/layouts/application.html.erb:17
+Started GET "/" for ::1 at 2022-05-01 14:20:42 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.1ms | Allocations: 843)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 23.8ms | Allocations: 9755)
+  Rendered layout layouts/application.html.erb (Duration: 71.1ms | Allocations: 20476)
+Completed 500 Internal Server Error in 77ms (Allocations: 21801)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<ActionView::Base:0x00000000014410>):
+    60:               </div>
+    61:               <div class="modal-footer">
+    62:                 <%= link_to "Send", "#", method: :post, class:"btn btn-secondary", 'data-dismiss': "modal" %>
+    63:                 <%= f.send 'Save', data: { confirm: 'Your confirm message' } %>
+    64:                 <%# <button type="button" class="btn btn-secondary" data-dismiss="modal">Envoyer</button> %>
+    65:                 <%# <button type="button" class="btn btn-primary btn-pink">Retour</button> %>
+    66:               </div>
+  
+app/views/shared/_navbar.html.erb:63
+app/views/layouts/application.html.erb:17
+Started GET "/" for ::1 at 2022-05-01 14:23:07 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 7.5ms | Allocations: 843)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 18.7ms | Allocations: 5658)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 77.6ms | Allocations: 16686)
+Completed 200 OK in 84ms (Views: 81.0ms | Allocations: 18054)
+
+
+Started POST "/" for ::1 at 2022-05-01 14:23:35 -0400
+Processing by HomeController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 24ms (Allocations: 439)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:23:35 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 7.3ms | Allocations: 681)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 13.8ms | Allocations: 4902)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 76.6ms | Allocations: 15127)
+Completed 200 OK in 84ms (Views: 81.6ms | Allocations: 15611)
+
+
+Started GET "/clients" for ::1 at 2022-05-01 14:24:06 -0400
+Processing by PagesController#clients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/clients.html.erb within layouts/application
+  Rendered pages/clients.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 13.0ms | Allocations: 5646)
+  Rendered shared/_footer.html.erb (Duration: 4.0ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 70.8ms | Allocations: 17244)
+Completed 200 OK in 80ms (Views: 76.1ms | Allocations: 18603)
+
+
+Started POST "/clients" for ::1 at 2022-05-01 14:24:52 -0400
+Processing by ClientsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (Allocations: 438)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:24:52 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 13.6ms | Allocations: 843)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 45.0ms | Allocations: 5657)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 161.6ms | Allocations: 16683)
+Completed 200 OK in 185ms (Views: 181.1ms | Allocations: 18055)
+
+
+Started GET "/team" for ::1 at 2022-05-01 14:24:57 -0400
+Processing by PagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/team.html.erb within layouts/application
+  Rendered pages/team.html.erb within layouts/application (Duration: 36.9ms | Allocations: 1683)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 8.7ms | Allocations: 4882)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 90.1ms | Allocations: 16065)
+Completed 200 OK in 98ms (Views: 91.0ms | Allocations: 16686)
+
+
+Started POST "/team" for ::1 at 2022-05-01 14:25:02 -0400
+Processing by TeamController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (Allocations: 439)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:25:02 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.3ms | Allocations: 679)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 27.1ms | Allocations: 4901)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 119.5ms | Allocations: 15124)
+Completed 200 OK in 122ms (Views: 120.7ms | Allocations: 15606)
+
+
+Started POST "/" for ::1 at 2022-05-01 14:25:21 -0400
+Processing by HomeController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (Allocations: 305)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:25:21 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 36.7ms | Allocations: 588)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 29.3ms | Allocations: 4874)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 165.7ms | Allocations: 14957)
+Completed 200 OK in 168ms (Views: 166.8ms | Allocations: 15401)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:26:35 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 10.9ms | Allocations: 847)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 37.7ms | Allocations: 5664)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 14032.4ms | Allocations: 82324)
+Completed 200 OK in 14048ms (Views: 14042.2ms | Allocations: 83679)
+
+
+Started POST "/" for ::1 at 2022-05-01 14:26:55 -0400
+Processing by HomeController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (Allocations: 348)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:26:55 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 8.5ms | Allocations: 591)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 16.7ms | Allocations: 4874)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 135.5ms | Allocations: 14962)
+Completed 200 OK in 139ms (Views: 136.7ms | Allocations: 15420)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:29:00 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 34.7ms | Allocations: 839)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 23.8ms | Allocations: 9651)
+  Rendered layout layouts/application.html.erb (Duration: 159.8ms | Allocations: 20362)
+Completed 500 Internal Server Error in 169ms (Allocations: 21640)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `button' for #<ActionView::Base:0x000000000150e0>
+Did you mean?  button_to):
+    59:                 <p><em>Thank you for your message.</em></p>
+    60:               </div>
+    61:               <div class="modal-footer">
+    62:                 <%= link_to "Send", "#", data: { confirm: 'We received your message', class: button }, method: :post, class:"btn btn-secondary", 'data-dismiss': "modal" %>
+    63:                 <%# <button type="button" class="btn btn-secondary" data-dismiss="modal">Envoyer</button> %>
+    64:                 <%# <button type="button" class="btn btn-primary btn-pink">Retour</button> %>
+    65:               </div>
+  
+app/views/shared/_navbar.html.erb:62
+app/views/layouts/application.html.erb:17
+Started GET "/" for ::1 at 2022-05-01 14:29:22 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 29.7ms | Allocations: 843)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 18.7ms | Allocations: 5656)
+  Rendered shared/_footer.html.erb (Duration: 24.6ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 126.5ms | Allocations: 16682)
+Completed 200 OK in 136ms (Views: 134.2ms | Allocations: 18050)
+
+
+Started POST "/" for ::1 at 2022-05-01 14:29:35 -0400
+Processing by HomeController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (Allocations: 348)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:29:35 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 50.7ms | Allocations: 588)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 17.7ms | Allocations: 4874)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 119.8ms | Allocations: 14957)
+Completed 200 OK in 125ms (Views: 123.3ms | Allocations: 15415)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:29:57 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 592)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 41.4ms | Allocations: 4882)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 14164.2ms | Allocations: 81034)
+Completed 200 OK in 14166ms (Views: 14165.2ms | Allocations: 81479)
+
+
+Started POST "/" for ::1 at 2022-05-01 14:30:16 -0400
+Processing by HomeController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (Allocations: 304)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:30:16 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 35.8ms | Allocations: 590)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 13.0ms | Allocations: 4875)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 241.1ms | Allocations: 14962)
+Completed 200 OK in 243ms (Views: 242.1ms | Allocations: 15406)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:33:08 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.7ms | Allocations: 844)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 18.0ms | Allocations: 5643)
+  Rendered shared/_footer.html.erb (Duration: 49.1ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 141.4ms | Allocations: 16665)
+Completed 200 OK in 147ms (Views: 144.9ms | Allocations: 17987)
+
+
+Started POST "/" for ::1 at 2022-05-01 14:33:15 -0400
+Processing by HomeController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (Allocations: 348)
+
+
+Started GET "/" for ::1 at 2022-05-01 14:33:15 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 36.7ms | Allocations: 592)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 20.5ms | Allocations: 4876)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 145.1ms | Allocations: 14968)
+Completed 200 OK in 148ms (Views: 146.0ms | Allocations: 15427)
+
+
