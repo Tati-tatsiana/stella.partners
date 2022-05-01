@@ -25,6 +25,9 @@
           <li class="nav-item">
             <%= link_to "Recent projects", projects_path, class: "nav-link recent" %>
           </li>
+          <li class="nav-item">
+            <%= link_to "Clients", clients_path, class: "nav-link clients" %>
+          </li>
           <li>
             <%= link_to "Contact", "#", class: "btn btn-primary btn-position-form", data: {toggle: "modal", target:"#exampleModal"} %>
           </li>
@@ -44,14 +47,14 @@
               </div>
               <div class="modal-body">
                 <%= form_with url: "#", method: :get do |form| %>
-                <%= form.label :query, "Your message:" %>
+                <%= form.label :message, "Your message:" %>
                 <%= form.text_area :message, size: "50x2", class: "text-area p-2", value: " "%>
-                <%= form.label :query, "Full name:" %>
-                <%= form.text_area :message, size: "50x2", class: "text-area p-2", value: " "%>
-                <%= form.label :query, "Email:" %>
-                <%= form.text_area :message, size: "50X2", class: "text-area p-2", value: " " %>
-                <%= form.label :query, "Phone number:" %>
-                <%= form.text_area :message, size: "50x2", class: "text-area p-2", value: " " %>
+                <%= form.label :fullname, "Full name:" %>
+                <%= form.text_area :fullname, size: "50x2", class: "text-area p-2", value: " "%>
+                <%= form.label :email, "Email:" %>
+                <%= form.text_area :email, size: "50X2", class: "text-area p-2", value: " " %>
+                <%= form.label :phonenumber, "Phone number:" %>
+                <%= form.text_area :phonenumber, size: "50x2", class: "text-area p-2", value: " " %>
                 <% end %>
                 <p><em>Thank you for your message.</em></p>
               </div>

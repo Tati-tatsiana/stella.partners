@@ -8,4 +8,6 @@ class PagesController < ApplicationController
   def team
   end
 
+  def clients
+  end
 end
