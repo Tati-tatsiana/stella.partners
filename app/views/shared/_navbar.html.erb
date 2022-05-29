@@ -46,15 +46,15 @@
                   </button>
               </div>
               <div class="modal-body">
-                <%= form_with url: "#", method: :get do |form| %>
+                <%= form_with url: "/send", method: :get do |form| %>
                 <%= form.label :message, "Your message:" %>
                 <%= form.text_area :message, size: "50x2", class: "text-area p-2", value: " "%>
                 <%= form.label :fullname, "Full name:" %>
                 <%= form.text_area :fullname, size: "50x2", class: "text-area p-2", value: " "%>
                 <%= form.label :email, "Email:" %>
-                <%= form.text_area :email, size: "50X2", class: "text-area p-2", value: " " %>
+                <%= form.email_field :email, size: "50X2", class: "text-area p-2", value: " " %>
                 <%= form.label :phonenumber, "Phone number:" %>
-                <%= form.text_area :phonenumber, size: "50x2", class: "text-area p-2", value: " " %>
+                <%= form.phone_field :phonenumber, size: "50x2", class: "text-area p-2", value: " " %>
                 <% end %>
                 <p><em>Thank you for your message.</em></p>
               </div>
