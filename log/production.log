@@ -1,0 +1,121 @@
+I, [2022-05-29T16:16:29.358840 #40492]  INFO -- :   Rendered /Users/tatsianatrakhimets/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/mail_form-1.9.0/lib/mail_form/views/mail_form/contact.erb (Duration: 5.1ms | Allocations: 1282)
+I, [2022-05-29T16:16:29.424442 #40492]  INFO -- : Delivered mail 6293d49d5859a_9e2ce24-430@Tatsianas-MacBook.local.mail (64.2ms)
+I, [2022-05-29T16:18:52.699723 #40820]  INFO -- :   Rendered /Users/tatsianatrakhimets/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/mail_form-1.9.0/lib/mail_form/views/mail_form/contact.erb (Duration: 5.9ms | Allocations: 1282)
+I, [2022-05-29T16:18:53.910063 #40820]  INFO -- : Delivered mail 6293d52cac26d_9f74e24366c8@Tatsianas-MacBook.local.mail (1207.4ms)
+I, [2022-05-29T16:38:49.233731 #44099]  INFO -- :   Rendered /Users/tatsianatrakhimets/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/mail_form-1.9.0/lib/mail_form/views/mail_form/contact.erb (Duration: 7.3ms | Allocations: 1282)
+I, [2022-05-29T16:38:50.711124 #44099]  INFO -- : Delivered mail 6293d9d93a28f_ac43e248587@Tatsianas-MacBook.local.mail (1474.3ms)
+I, [2022-05-29T16:46:22.676378 #44811]  INFO -- : [c0203b1f-4f80-43e3-b53a-e878e4ef9114] Started POST "/" for 127.0.0.1 at 2022-05-29 16:46:22 -0400
+I, [2022-05-29T16:46:22.690485 #44811]  INFO -- : [c0203b1f-4f80-43e3-b53a-e878e4ef9114] Processing by HomeController#create as HTML
+I, [2022-05-29T16:46:22.691031 #44811]  INFO -- : [c0203b1f-4f80-43e3-b53a-e878e4ef9114]   Parameters: {"authenticity_token"=>"[FILTERED]"}
+W, [2022-05-29T16:46:22.732324 #44811]  WARN -- : [c0203b1f-4f80-43e3-b53a-e878e4ef9114] Can't verify CSRF token authenticity.
+I, [2022-05-29T16:46:22.733728 #44811]  INFO -- : [c0203b1f-4f80-43e3-b53a-e878e4ef9114] Completed 422 Unprocessable Entity in 42ms (Allocations: 1650)
+F, [2022-05-29T16:46:22.738566 #44811] FATAL -- : [c0203b1f-4f80-43e3-b53a-e878e4ef9114]   
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114]   
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:199:in `block in halting'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:512:in `block in invoke_before'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:512:in `each'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:512:in `invoke_before'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:115:in `block in run_callbacks'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:137:in `run_callbacks'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/abstract_controller/callbacks.rb:41:in `process_action'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal/rescue.rb:22:in `process_action'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/notifications.rb:203:in `block in instrument'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/notifications.rb:203:in `instrument'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activerecord (6.1.5) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/abstract_controller/base.rb:165:in `process'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionview (6.1.5) lib/action_view/rendering.rb:39:in `process'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal.rb:190:in `dispatch'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_controller/metal.rb:254:in `dispatch'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/journey/router.rb:32:in `each'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/routing/route_set.rb:842:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/etag.rb:27:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/head.rb:12:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/http/content_security_policy.rb:19:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/callbacks.rb:98:in `run_callbacks'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] railties (6.1.5) lib/rails/rack/logger.rb:37:in `call_app'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] railties (6.1.5) lib/rails/rack/logger.rb:26:in `block in call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] railties (6.1.5) lib/rails/rack/logger.rb:26:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] activesupport (6.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] actionpack (6.1.5) lib/action_dispatch/middleware/host_authorization.rb:142:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] railties (6.1.5) lib/rails/engine.rb:539:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+[c0203b1f-4f80-43e3-b53a-e878e4ef9114] puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2022-05-29T16:46:23.897107 #44811]  INFO -- : [26f300c3-7ed3-49f1-a734-6fe42af37765] Started GET "/favicon.ico" for 127.0.0.1 at 2022-05-29 16:46:23 -0400
+F, [2022-05-29T16:46:23.898038 #44811] FATAL -- : [26f300c3-7ed3-49f1-a734-6fe42af37765]   
+[26f300c3-7ed3-49f1-a734-6fe42af37765] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[26f300c3-7ed3-49f1-a734-6fe42af37765]   
+I, [2022-05-29T16:48:02.541930 #44811]  INFO -- : [ad020776-6f20-4461-9f66-68c1ab081a19] Started GET "/" for 127.0.0.1 at 2022-05-29 16:48:02 -0400
+I, [2022-05-29T16:48:02.543350 #44811]  INFO -- : [ad020776-6f20-4461-9f66-68c1ab081a19] Processing by PagesController#home as HTML
+I, [2022-05-29T16:48:02.641649 #44811]  INFO -- : [ad020776-6f20-4461-9f66-68c1ab081a19]   Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 385)
+I, [2022-05-29T16:48:02.641881 #44811]  INFO -- : [ad020776-6f20-4461-9f66-68c1ab081a19]   Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 448)
+I, [2022-05-29T16:48:02.642268 #44811]  INFO -- : [ad020776-6f20-4461-9f66-68c1ab081a19] Completed 500 Internal Server Error in 98ms (Allocations: 3295)
+F, [2022-05-29T16:48:02.646318 #44811] FATAL -- : [ad020776-6f20-4461-9f66-68c1ab081a19]   
+[ad020776-6f20-4461-9f66-68c1ab081a19] ActionView::Template::Error (The asset "background1.jpg" is not present in the asset pipeline.
+):
+[ad020776-6f20-4461-9f66-68c1ab081a19]     1: <div class="background" style="background-image: url('<%= image_path "background1.jpg" %>');">
+[ad020776-6f20-4461-9f66-68c1ab081a19]     2: </div>
+[ad020776-6f20-4461-9f66-68c1ab081a19]   
+[ad020776-6f20-4461-9f66-68c1ab081a19] app/views/pages/home.html.erb:1
+I, [2022-05-29T16:48:05.928745 #44811]  INFO -- : [256d028e-79a9-4a22-8173-961c3d8f8839] Started GET "/" for 127.0.0.1 at 2022-05-29 16:48:05 -0400
+I, [2022-05-29T16:48:05.932497 #44811]  INFO -- : [256d028e-79a9-4a22-8173-961c3d8f8839] Processing by PagesController#home as HTML
+I, [2022-05-29T16:48:05.935113 #44811]  INFO -- : [256d028e-79a9-4a22-8173-961c3d8f8839]   Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 130)
+I, [2022-05-29T16:48:05.935338 #44811]  INFO -- : [256d028e-79a9-4a22-8173-961c3d8f8839]   Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 160)
+I, [2022-05-29T16:48:05.935681 #44811]  INFO -- : [256d028e-79a9-4a22-8173-961c3d8f8839] Completed 500 Internal Server Error in 3ms (Allocations: 533)
+F, [2022-05-29T16:48:05.938404 #44811] FATAL -- : [256d028e-79a9-4a22-8173-961c3d8f8839]   
+[256d028e-79a9-4a22-8173-961c3d8f8839] ActionView::Template::Error (The asset "background1.jpg" is not present in the asset pipeline.
+):
+[256d028e-79a9-4a22-8173-961c3d8f8839]     1: <div class="background" style="background-image: url('<%= image_path "background1.jpg" %>');">
+[256d028e-79a9-4a22-8173-961c3d8f8839]     2: </div>
+[256d028e-79a9-4a22-8173-961c3d8f8839]   
+[256d028e-79a9-4a22-8173-961c3d8f8839] app/views/pages/home.html.erb:1
+I, [2022-05-29T16:48:09.949945 #44811]  INFO -- : [00d834d9-bc29-46da-8345-550b481db477] Started GET "/" for 127.0.0.1 at 2022-05-29 16:48:09 -0400
+I, [2022-05-29T16:48:09.951564 #44811]  INFO -- : [00d834d9-bc29-46da-8345-550b481db477] Processing by PagesController#home as HTML
+I, [2022-05-29T16:48:09.953548 #44811]  INFO -- : [00d834d9-bc29-46da-8345-550b481db477]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 130)
+I, [2022-05-29T16:48:09.953819 #44811]  INFO -- : [00d834d9-bc29-46da-8345-550b481db477]   Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 160)
+I, [2022-05-29T16:48:09.954502 #44811]  INFO -- : [00d834d9-bc29-46da-8345-550b481db477] Completed 500 Internal Server Error in 3ms (Allocations: 487)
+F, [2022-05-29T16:48:09.956651 #44811] FATAL -- : [00d834d9-bc29-46da-8345-550b481db477]   
+[00d834d9-bc29-46da-8345-550b481db477] ActionView::Template::Error (The asset "background1.jpg" is not present in the asset pipeline.
+):
+[00d834d9-bc29-46da-8345-550b481db477]     1: <div class="background" style="background-image: url('<%= image_path "background1.jpg" %>');">
+[00d834d9-bc29-46da-8345-550b481db477]     2: </div>
+[00d834d9-bc29-46da-8345-550b481db477]   
+[00d834d9-bc29-46da-8345-550b481db477] app/views/pages/home.html.erb:1

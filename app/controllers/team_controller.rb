@@ -12,6 +12,9 @@ class TeamController < ApplicationController
     @phonenumber = params[:phonenumber]
     puts @message, @fullname, @email, @phonenumber
 
+    c = TestEmailForm.new(fullname: @fullname, email: @email, message: @message, phonenumber: @phonenumber)
+    c.deliver
+
     redirect_to root_path
   end
 end
