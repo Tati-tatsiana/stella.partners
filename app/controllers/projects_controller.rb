@@ -2,7 +2,7 @@ class ProjectsController < ApplicationController
   def index
   end
 
-  def show,
+  def show
   end
 
   def create
