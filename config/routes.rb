@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   post 'projects', to: 'projects#create'
   post 'clients', to: 'clients#create'
   post '', to: 'home#create'
+
+  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
+  resources :cats
+  end
 end
