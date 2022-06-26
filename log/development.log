@@ -12508,3 +12508,69 @@ Processing by PagesController#clients as HTML
 Completed 200 OK in 116ms (Views: 115.3ms | Allocations: 16201)
 
 
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+Started GET "/" for ::1 at 2022-06-26 15:40:10 -0400
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/tatsianatrakhimets/code/Tati-tatsiana/stella.partners/app/controllers/application_controller.rb:12: syntax error, unexpected &., expecting ')'
+...  I18n.available_locales.map(&.to_s).include?(parsed_locale)...
+...                             ^~
+):
+  
+app/controllers/application_controller.rb:12: syntax error, unexpected &., expecting ')'
+app/controllers/application_controller.rb:12: syntax error, unexpected &., expecting ')'
+app/controllers/application_controller.rb:12: syntax error, unexpected &., expecting ')'
+app/controllers/pages_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-06-26 15:41:51 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 993.9ms | Allocations: 22927)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 69.9ms | Allocations: 6673)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 1157.0ms | Allocations: 40058)
+Completed 200 OK in 1182ms (Views: 1162.4ms | ActiveRecord: 0.0ms | Allocations: 42811)
+
+
+Started GET "/projects?locale=en" for ::1 at 2022-06-26 15:41:58 -0400
+Processing by PagesController#projects as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (Duration: 3.6ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 10.6ms | Allocations: 5036)
+  Rendered shared/_footer.html.erb (Duration: 13.3ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 82.6ms | Allocations: 14902)
+Completed 200 OK in 90ms (Views: 84.2ms | ActiveRecord: 0.0ms | Allocations: 15654)
+
+
+Started GET "/team?locale=en" for ::1 at 2022-06-26 15:42:00 -0400
+Processing by PagesController#team as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/team.html.erb within layouts/application
+  Rendered pages/team.html.erb within layouts/application (Duration: 52.7ms | Allocations: 1749)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 12.0ms | Allocations: 4973)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 129.3ms | Allocations: 16328)
+Completed 200 OK in 137ms (Views: 131.1ms | ActiveRecord: 0.0ms | Allocations: 16933)
+
+
